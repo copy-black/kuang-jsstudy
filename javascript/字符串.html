@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // \x## 
+        console.log('\x41');//等同于A
+        // u#### 表示unicode字符
+
+    //多行字符串   ``  
+    var msg=`你好
+    world 
+    ya `
+    console.log(msg)
+    //模板字符串    
+    var name = '小明';
+     var age = 20;
+     var msp= `你好,${name}`;
+     console.log(msp)
+      var message = `你好, ${name}, 你今年${age}岁了!`; 
+      alert(message);
+      //字符串长度
+      var s ='hello world'
+      console.log(s.length)
+      //值得注意的是，字符串不可变 ，即使对某个位置修改值，没有任何效果。
+
+      var st='hello'
+      st.toUpperCase();
+      st.toLowerCase();
+      s.indexOf('hello')
+      //substring() 返回指定区间的字串
+      //indexof索引方法
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
